@@ -53,6 +53,7 @@ class PrunableLinear(nn.Module):
 
     Each weight w_ij is multiplied by sigmoid(g_ij) where g_ij is a trainable
     gate score. When the gate approaches 0, the weight is effectively removed.
+    
     """
 
     def __init__(self, in_features: int, out_features: int):
