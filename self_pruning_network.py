@@ -12,6 +12,7 @@ Usage:
     python self_pruning_network.py --epochs 50 --lambdas 0 1e-5 1e-4 1e-3
     python self_pruning_network.py --device cpu
     
+    
 """
 
 import math
